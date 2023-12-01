@@ -1,0 +1,10 @@
+﻿using Foundation;
+
+namespace FlyoutWithHeaderExample
+{
+    [Register("AppDelegate")]
+    public class AppDelegate : MauiUIApplicationDelegate
+    {
+        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+    }
+}
